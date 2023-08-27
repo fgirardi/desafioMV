@@ -14,7 +14,14 @@ Certifique-se de ter os seguintes requisitos instalados:
 3. Compile o projeto: mvn clean install
 4. Execute a aplicação: java -jar target/nome-do-arquivo.jar
 
-## Configuração Adicional
+## Documentacao dos servicos:
+http://localhost:8080/swagger-ui
+
+## Acesso ao banco H2
+http://localhost:8080/h2
+Usuario: admin
+senha: 123
+
 
 ...
 
