@@ -6,6 +6,7 @@ Certifique-se de ter os seguintes requisitos instalados:
 
 - [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [Maven](https://maven.apache.org/)
+- [Git](https://git-scm.com/downloads)
 
 ## Setup do ambiente.
   Configure a variavel de ambiente path do seu ambiente antes de tentar compilar e rodar
