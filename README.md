@@ -37,7 +37,6 @@ Talvez seja necessario configurar a variavel ambiente PATH do seu ambiente, aqui
 set PATH=%PATH%;D:\Ferramentas\git\bin  
 set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin   
 set PATH=%PATH%;C:\java\openjdk-11.0.2\bin  
-git clone https://github.com/fgirardi/desafioMV.git  
 ...
 
 ## Suporte
