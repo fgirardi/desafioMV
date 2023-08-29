@@ -24,21 +24,20 @@ Certifique-se de ter os seguintes requisitos instalados:
 http://localhost:8080/swagger-ui
 
 ## Acesso ao banco H2
-http://localhost:8080/h2
-Usuario: admin
-senha: 123
+http://localhost:8080/h2  
+Usuario: admin  
+senha: 123  
 
 
 ...
 
 ## Problemas Conhecidos
-Talvez seja necessario configurar a variavel ambiente PATH do seu ambiente, aqui tem um exemplo conforme o ambiente no qual o programa foi desenvolvido.
+Talvez seja necessario configurar a variavel ambiente PATH do seu ambiente, aqui tem um exemplo conforme o ambiente no qual o programa foi desenvolvido.  
 
-set PATH=%PATH%;D:\Ferramentas\git\bin
-set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin
-set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin
-set PATH=%PATH%;C:\java\openjdk-11.0.2\bin
-git clone https://github.com/fgirardi/desafioMV.git
+set PATH=%PATH%;D:\Ferramentas\git\bin  
+set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin   
+set PATH=%PATH%;C:\java\openjdk-11.0.2\bin  
+git clone https://github.com/fgirardi/desafioMV.git  
 ...
 
 ## Suporte
