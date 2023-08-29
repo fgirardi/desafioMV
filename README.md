@@ -9,12 +9,13 @@ Certifique-se de ter os seguintes requisitos instalados:
 - [Git](https://git-scm.com/downloads)
 
 ## Setup do ambiente.
-  Configure a variavel de ambiente path do seu ambiente antes de tentar compilar e rodar
+  Configure a variavel de ambiente path do seu ambiente antes de tentar compilar e rodar  
   Vai ser necessario adicionar os caminhos do maven, git e java 11.  
   Use os seguintes comandos no cmd:  
   set PATH=%PATH%;D:\Ferramentas\git\bin  
   set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin   
   set PATH=%PATH%;C:\java\openjdk-11.0.2\bin  
+  Obs: Os caminhos informados são referente a minha maquina de desenvolvimento.  
   
 
 ## Passos
