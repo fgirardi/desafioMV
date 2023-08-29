@@ -23,7 +23,7 @@ Certifique-se de ter os seguintes requisitos instalados:
 1. Clone o repositório para o seu computador:
 2. Navegue para o diretório do projeto:
 3. Compile o projeto: mvn clean install
-4. Execute a aplicação: java -jar target/nome-do-arquivo.jar
+4. Execute a aplicação: java -jar mvteste-0.0.1-SNAPSHOT.jar
 
 ## Documentacao dos servicos:
 http://localhost:8080/swagger-ui
