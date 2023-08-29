@@ -10,8 +10,11 @@ Certifique-se de ter os seguintes requisitos instalados:
 
 ## Setup do ambiente.
   Configure a variavel de ambiente path do seu ambiente antes de tentar compilar e rodar
-  Vai ser necessario adicionar os caminhos do maven, git e java 11, para isso faça:
-  echo %PATH:;=&echo.%
+  Vai ser necessario adicionar os caminhos do maven, git e java 11.  
+  Use os seguintes comandos no cmd:  
+  set PATH=%PATH%;D:\Ferramentas\git\bin  
+  set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin   
+  set PATH=%PATH%;C:\java\openjdk-11.0.2\bin  
   
 
 ## Passos
@@ -28,16 +31,10 @@ http://localhost:8080/swagger-ui
 http://localhost:8080/h2  
 Usuario: admin  
 senha: 123  
-
-
 ...
 
 ## Problemas Conhecidos
-Talvez seja necessario configurar a variavel ambiente PATH do seu ambiente, aqui tem um exemplo conforme o ambiente no qual o programa foi desenvolvido.  
-
-set PATH=%PATH%;D:\Ferramentas\git\bin  
-set PATH=%PATH%;D:\Ferramentas\Maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin   
-set PATH=%PATH%;C:\java\openjdk-11.0.2\bin  
+Nenhum reportado.
 ...
 
 ## Suporte
