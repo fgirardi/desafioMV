@@ -21,20 +21,20 @@ public class PessoaControllerTests {
     @Test
     public void testSalvarPessoa() throws Exception {
         
-    	String requestBody = "{\"nome\": \"João\", \"cpf\": \"00123\", \"dataNascimento\": \"2000-07-01\"}";
+    	String requestBody = "{\"nome\": \"Joao\", \"cpf\": \"00123\", \"dataNascimento\": \"2000-07-01\"}";
 
         mockMvc.perform(MockMvcRequestBuilders.post("/pessoa")
             .content(requestBody)
             .contentType(MediaType.APPLICATION_JSON))
             .andExpect(MockMvcResultMatchers.status().isCreated())
-            .andExpect(MockMvcResultMatchers.jsonPath("$.nome").value("João"));
+            .andExpect(MockMvcResultMatchers.jsonPath("$.nome").value("Joao"));
     }
 
     @Test
     public void testBuscarPorIdExistente() throws Exception {
         mockMvc.perform(MockMvcRequestBuilders.get("/pessoa/{id}", 1))
             .andExpect(MockMvcResultMatchers.status().isOk())
-            .andExpect(MockMvcResultMatchers.jsonPath("$.nome").value("João"));
+            .andExpect(MockMvcResultMatchers.jsonPath("$.nome").value("Joao"));
     }
 
     @Test

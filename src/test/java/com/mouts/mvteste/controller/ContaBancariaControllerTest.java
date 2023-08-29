@@ -1,5 +1,5 @@
 package com.mouts.mvteste.controller;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 
 import java.math.BigDecimal;
@@ -26,7 +26,7 @@ import com.mouts.mvteste.service.ContaBancariaService;
 import com.mouts.mvteste.util.Ativo;
 import com.mouts.mvteste.util.TipoConta;
 
-@DisplayName("ContaBancariaController Tests")
+@DisplayName("ContaBancariaController Teste")
 @ExtendWith(MockitoExtension.class)
 public class ContaBancariaControllerTest {
 

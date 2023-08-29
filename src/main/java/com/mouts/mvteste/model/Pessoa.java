@@ -30,11 +30,9 @@ public class Pessoa {
 	@Column(name = "nome")
 	private String nome;
 	
-	
 	@Column(name = "cpf")
 	private String cpf;
-	
-	
+		
 	@Column(name = "data_nascimento")
 	private LocalDate dataNascimento; 
 

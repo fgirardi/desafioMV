@@ -1,5 +1,6 @@
 package com.mouts.mvteste.service;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
@@ -37,6 +38,10 @@ public class ContaBancariaService {
 	}
 	
 	public ContaBancaria criarConta(ContaBancaria contaBancaria) {
+		
+		if (contaBancaria.getVlrLimiteDiario().equals(BigDecimal.ZERO)) {
+			throw new BussinessException("Nao é permitido criar uma conta cujo o valor de limite diario e zero");
+		}
 		
 		if (contaBancaria.getFlagAtivo().equals(Ativo.NAO)) {
 			throw new BussinessException("Nao é permitido criar uma conta bancaria INATIVA");
