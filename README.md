@@ -25,6 +25,9 @@ Certifique-se de ter os seguintes requisitos instalados:
 3. Compile o projeto: mvn clean install
 4. Execute a aplicação: java -jar mvteste-0.0.1-SNAPSHOT.jar
 
+![image](https://github.com/fgirardi/desafioMV/assets/20515071/c4600a62-39d0-49cd-9e77-0cb197d053fc)
+
+
 ## Documentacao dos servicos:
 http://localhost:8080/swagger-ui
 
