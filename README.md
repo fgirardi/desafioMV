@@ -35,6 +35,9 @@ http://localhost:8080/swagger-ui
 http://localhost:8080/h2  
 Usuario: admin  
 senha: 123  
+
+![image](https://github.com/fgirardi/desafioMV/assets/20515071/8e2dfd5c-2dfa-408a-b21b-38857473b3a8)
+
 ...
 
 ## Problemas Conhecidos
