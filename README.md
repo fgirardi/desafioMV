@@ -1,4 +1,4 @@
-# Instruções de Execução
+# Manual de Execução
 
 ## Requisitos
 
